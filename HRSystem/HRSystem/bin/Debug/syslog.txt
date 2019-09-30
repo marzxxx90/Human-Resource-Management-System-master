@@ -1,0 +1,100 @@
+[03/25/2019 15:34:27] ERROR [08004] [ODBC Firebird Driver]Unable to complete network request to host "MISGWAPOHON-PC:E".
+Failed to establish a connection.
+The network path was not found. 
+[03/25/2019 15:34:28] User: SYSDBA
+[03/25/2019 15:34:28] Database: //MISGWAPOHON-PC:E\Pawnshop\Data\W3W1LH4CKU.FDB
+[04/06/2019 11:54:47] LoadSQL - System.Data.Odbc.OdbcException (0x80131937): ERROR [HY000] [ODBC Firebird Driver][Firebird]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+B.COMNAPYNAME
+At line 1, column 342
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
+[04/08/2019 09:30:36] LoadSQL - System.Data.Odbc.OdbcException (0x80131937): ERROR [42S02] [ODBC Firebird Driver][Firebird]Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBLUSER
+At line 1, column 23
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
+[04/08/2019 15:59:55] LoadSQL - System.ArgumentException: Fill: expected a non-empty string for the SourceTable name.
+Parameter name: srcTable
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
+[05/10/2019 10:47:05] LoadSQL - System.Data.Odbc.OdbcException (0x80131937): ERROR [42S02] [ODBC Firebird Driver][Firebird]Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBLUSER
+At line 1, column 15
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
+[05/10/2019 10:47:14] LoadSQL - System.Data.Odbc.OdbcException (0x80131937): ERROR [42S02] [ODBC Firebird Driver][Firebird]Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBLUSER
+At line 1, column 15
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
+[05/10/2019 10:55:53] LoadSQL - System.Data.Odbc.OdbcException (0x80131937): ERROR [42S02] [ODBC Firebird Driver][Firebird]Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBLUSER
+At line 1, column 15
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
+[05/11/2019 09:45:16] LoadSQL - System.Data.Odbc.OdbcException (0x80131937): ERROR [42S02] [ODBC Firebird Driver][Firebird]Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBLUSER
+At line 1, column 15
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at HRSystem.database.LoadSQL(String mySql, String tblName) in C:\Users\Fujimura\Documents\GitHub\Human-Resource-Management-System\HRSystem\HRSystem\Modules\database.vb:line 127
